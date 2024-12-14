@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mamma’s Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mamma’s Kitchen</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Mamma’s Kitchen Restaurant</h2>
+            <p>Fresh, Tasty, and Authentic Cuisine</p>
+            <a href="#contact" class="cta-btn">Reserve a Table</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="C:\Users\spava\Downloads\ee16a684221c84d260b8c5c1e398db43.jpg" alt="Dish 1">
+                <h3>FISH CURRY</h3>
+                <p>A flavorful, aromatic dish featuring tender fish simmered in a rich and spicy coconut-based gravy. Infused with traditional spices, it's a perfect balance of tangy, savory, and slightly spicy, best enjoyed with steamed rice..</p>
+                <p><strong>Rs 130</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\spava\Downloads\2e58908fcbba1cf0f2a171ab2f7430df.jpg" alt="Dish 2">
+                <h3>PRAWNS CURRY</h3>
+                <p>Succulent prawns cooked in a fragrant, spiced coconut gravy. This dish combines bold flavors with a hint of tanginess, offering a deliciously rich and savory experience, perfect with rice or bread.</p>
+                <p><strong>Rs 199</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\spava\Downloads\5afc6bff21cac5563d312960d6f5b9d5.jpg" alt="Dish 3">
+                <h3>CRAB CURRY</h3>
+                <p>Tender crab meat cooked in a rich, aromatic gravy made with a blend of spices and coconut. This flavorful curry is a perfect mix of spicy, savory, and slightly sweet, ideal with steamed rice or crusty bread.</p>
+                <p><strong>Rs 249</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Our restaurant offers an exquisite dining experience with a wide range of delicious dishes crafted with fresh, locally sourced ingredients. Whether you're here for a casual meal or a special celebration, we ensure quality and flavor in every bite.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"The food was absolutely amazing! Highly recommend this place for any occasion."</p>
+            <h3>- Gowthami</h3>
+        </div>
+        <div class="testimonial">
+            <p>"Best restaurant experience I've had in a long time. Great atmosphere and even better food!"</p>
+            <h3>- Ramachandra</h3>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Plot No, 8, Suchitra Rd, near Laxmi Plaza, Ramraj Nagar, Ramraju Nagar, Medchal, Secunderabad, Telangana 500055</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Email: info@Mamma’s Kitchen.com</p>
+        <a href="mailto:info@Mamma’s Kitchen.com" class="cta-btn">Email Us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mamma’s Kitchen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+//CODE FOR CSS//
+/* General Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav .nav-links {
+    list-style-type: none;
+}
+
+nav .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav .nav-links a:hover {
+    color: #f76c6c;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://i.pinimg.com/736x/de/ca/16/deca16d0cc9cc43bd503bccb9333fedb.jpg'); /* Replace with a real image */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    color: #0a0101;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #f76c6c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #d55a5a;
+}
+
+/* Menu Section Styles */
+.menu {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 50px 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
